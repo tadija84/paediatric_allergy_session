@@ -67,6 +67,9 @@ main{
 .content_image{
     width: 100%;
 }
+.experts_image{
+    cursor: pointer;
+}
 .image_link_text{
     text-align: center;
     color: rgb(10, 21, 81);
