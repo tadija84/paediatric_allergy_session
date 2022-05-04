@@ -21,7 +21,7 @@ main{
     top: 0;
     left: 0;
     z-index: 5;
-    background-color: rgba(187, 207, 226, 0.986);
+    background-color: rgb(223, 223, 255);;
 }
 .wrapper{
     display: flex;
