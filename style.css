@@ -63,11 +63,17 @@ main{
     margin-bottom: 1em;
 }
 .section_cont{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .img_container{
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
 }
 .content_image{
     width: 100%;
