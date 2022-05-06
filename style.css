@@ -24,8 +24,7 @@ main{
     background-color: rgb(223, 223, 255);;
 }
 .wrapper{
-    display: flex;
-    flex-direction: column;
+    display:block;
     width: 672px;
 
     background-color: rgb(255, 255, 255);
@@ -37,7 +36,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 8vh;
+    margin-bottom: 3vh;
 }
 .conv-text-head,
 .conv-text-cont{
@@ -107,19 +106,53 @@ main{
 }
 a{
     text-decoration: none;
+    text-align: center;
 }
 
 @media only screen and (max-width: 765px) {
     .wrapper{
         width: 480px;
     }
+    .btn_container{
+        padding: 0 25px;
+    }
 }
 @media only screen and (max-width: 480px) {
+    .top_dark_rect{
+        height: 5vh;
+    }
     main{
-        padding: 70px 0 50px;
+        padding: 15px 0 50px;
     }
     .wrapper{
         width: 100%;
         padding: 16px 16px 0px;
     }
+    .btn_container{
+        padding: 0 30px;
+    }
+    .btn_link{
+        width: 145px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .btn_link{
+        width: 115px;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .wrapper{
+        padding: 16px 8px 0px;
+    }
+    .btn_link{
+        width: 105px;
+        font-size: 13px;
+    }
+}
+.item_section img{
+    object-fit: contain;
+}
+.img-only{
+    max-height: 40vw;
 }
